@@ -406,7 +406,7 @@ int process_start(HANDLE *process,
                      // https://github.com/DaanDeMeyer/reproc/issues/6 and
                      // https://github.com/DaanDeMeyer/reproc/pull/7 for more
                      // information.
-                     .wShowWindow = SW_HIDE },
+                     .wShowWindow = SW_SHOW },
     .lpAttributeList = attribute_list
   };
 
